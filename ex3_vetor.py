@@ -1,26 +1,27 @@
-tamanho = int(input("Digite o tamanho do  vetor:"))
-vetor = [int] * tamanho
-soma = 0
-for i in range(len(vetor)):
-    vetor[i] = int(input(f"Digite o {i + 1} valor:"))
+tamanho = int(input("Digite o tamanho do  vetor:")) #atribui um valor n para a variavel tamanho.
+vetor = [int] * tamanho #declarando um vetor de numeros inteiros, * tamanho multiplica a quantidade de valores que teram dentro do vetor.
 
-print("\n")
+soma = 0 #declarando a variavel soma e a inicializando com o valor zero.
+for i in range(len(vetor)): #laço para percorrer o vetor.
+    vetor[i] = int(input(f"Digite o {i + 1} valor:")) #atribui valores n valores inteiros no vetor.
 
-print("Dados do vetor:")
-for i in range(len(vetor)):
-    print(vetor[i], end=" ")
+print("\n") #quebra de linha
 
-print("\n")
+print("Dados do vetor:") #imprime ps dadps entre aspas e mostra na tela.
+for i in range(len(vetor)): #laço para pervorrer o vetor.
+    print(vetor[i], end=" ") #imprime os dados do vetor[i] e mostra na tela.
 
-pos1 = int(input("Digite a primeira posição:"))
-pos2 = int(input("Digite a segunda posição:"))
+print("\n") #quebra de linha
 
-x = vetor[pos1]
-y = vetor[pos2]
+pos1 = int(input("Digite a primeira posição:")) #recebe um valor n para definir a posição do vetor que vai ser atribuido na variavel pos1.
+pos2 = int(input("Digite a segunda posição:")) #recebe um valor n para definir a posição do vetor que vai ser atribuido na variavel pos2.
 
-soma = x + y
+x = vetor[pos1] #atribui o valor do variavel pos1 na variavel x.
+y = vetor[pos2] #atribui o valor da variavel pos2 na variavel y
 
-print("primeiro numero selecionado:",x)
-print("segundo numero selecionado:",y)
-print("a soma é igual a:",soma)
+soma = x + y #soma entre a variavel x e y.
+
+print("primeiro numero selecionado:",x) #imprime os dados entre aspas e os dados da variavel x.
+print("segundo numero selecionado:",y) #imprime os dados entre aspas e os dados da variavel y.
+print("a soma é igual a:",soma) #imprime os dados entre aspas e os dados da variavel soma.
 

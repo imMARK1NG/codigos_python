@@ -1,3 +1,5 @@
+#Questão 1
+
 vetor = [1,2,4,16,32,64,-128] #definindo um vetor com 10 elementos.
 
 maior_n = vetor[0] #atribuindo a posição zero do vetor a variavel maior_n.
