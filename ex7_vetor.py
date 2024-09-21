@@ -1,4 +1,4 @@
-#Questão 7
+
 
 tamanho = 5 #define o tamanho do vetor
 

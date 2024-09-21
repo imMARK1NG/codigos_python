@@ -1,4 +1,4 @@
-#Questão 6
+#Questão 
 
 numero_de_elementos = int(input("Digite o numero de elementos:")) #atribui n valores vetor, informados pelo usuario.
 vetor = [i + 1 for i in range(numero_de_elementos)]  #atribui n valores inteiros dentro do vetor.
