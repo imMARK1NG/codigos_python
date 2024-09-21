@@ -1,3 +1,5 @@
+#Questão 2
+
 tamanho = 10 #atribuindo um valor para a variavel tamanho.
 vetor_1 = [int] * tamanho #declarando um vetor de numeros inteiros, * tamanho multiplica a quantidade de valores que teram dentro do vetor.
 

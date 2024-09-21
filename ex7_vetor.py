@@ -1,3 +1,5 @@
+#Questão 7
+
 tamanho = 5 #define o tamanho do vetor
 
 #define a quantidade de numeros inteiros que o vetor vai ter.

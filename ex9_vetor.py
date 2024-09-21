@@ -1,3 +1,5 @@
+#Questão 9 
+
 vetor = [i + 1 for i in range(365)] #decalra um vetor com 365 numeros inteiros de 0 a ...365.
 media = 0 #declarando a variavel media e inicializando com o valor 0.
 

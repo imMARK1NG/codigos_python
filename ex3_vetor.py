@@ -1,3 +1,5 @@
+#Questão 3
+
 tamanho = int(input("Digite o tamanho do  vetor:")) #atribui um valor n para a variavel tamanho.
 vetor = [int] * tamanho #declarando um vetor de numeros inteiros, * tamanho multiplica a quantidade de valores que teram dentro do vetor.
 
