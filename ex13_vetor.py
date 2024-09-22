@@ -1,4 +1,8 @@
-numero_de_pessoas = int(input("Digite o numero de pessoas:"))
+#Questão 13
+
+numero_de_pessoas = int(input("Digite o numero de pessoas:")) #atribui uma valor n do tipo inteiro na variavel numero_de_pessoas.
+
+#declarando um vetor com n valores inteiros.
 vetor_idade = [int] * numero_de_pessoas
 vetor_altura = [float] * numero_de_pessoas
 
@@ -45,3 +49,4 @@ print(f"O mais alto tem {m_alto} de altura.")
 print(f"O mais baixo tem {m_baixo} de altura.")
 
 
+ 

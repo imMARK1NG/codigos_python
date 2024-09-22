@@ -1,3 +1,5 @@
+#Questão 12
+
 tamanho = int(input("Digite o tamanho do vetor:")) #atribui uma valor n do tipo inteiro na variavel tamanho.
 
 #declarando um vetor com n valores inteiros.

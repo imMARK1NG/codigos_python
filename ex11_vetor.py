@@ -1,3 +1,5 @@
+#Questão 11
+
 vetor =[int] * 6 #declarando um vetor com espaço pra 6 valores inteiros.
 
 for i in range(len(vetor)): #laço pra pecorrer o vetor.
